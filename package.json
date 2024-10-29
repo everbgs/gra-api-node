@@ -1,0 +1,22 @@
+{
+  "name": "gra-api-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --inspect --watch --experimental-sqlite src/index.js",
+    "start": "node --experimental-sqlite src/index.js",
+    "test": "node --experimental-sqlite --test src/test/api.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.21.1",
+    "sql-bricks": "^3.0.1"
+  }
+}
